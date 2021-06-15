@@ -20,6 +20,7 @@ See forecasted **PM 2.5** Pollutant Levels in Indian cities for the next **48** 
 st.sidebar.header('User Input Panel')
 
 
+
 # details for calling OpenWeather API
 API_KEY = 'acf6b2c17ce7439c51557ef26a8d7c54'
 exclude = 'minute,alerts,daily'
@@ -79,8 +80,14 @@ def user_input_features():
         day_selected = dayafter
 
     # user selects hour from slider
-    hr = st.sidebar.slider("Select the hour (24 hour format): ", min, max, min)
-    
+
+    if min != max:
+        hr = st.sidebar.slider("Select the hour (24 hour format): ", min, max, min)
+    else:
+        st.sidebar.write("Hour (24 hour format)")
+        hr = min
+        st.sidebar.write(hr)
+
     # hour = x hours from current hour (0 to 48) for OpenWeather API Call
     # logic to calculate hour based on selected date/time by user 
     if day_selected == now:
