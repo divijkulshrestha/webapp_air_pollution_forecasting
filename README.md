@@ -6,3 +6,13 @@ This repo contains Python code for the web application we built for our capstone
 # Aim
 Our project aims to use machine learning to forecast the level of pollution (specifically, PM 2.5 values) for vairous urban Indian cities using publicly available pollution and meteorological data from [OpenWeather](https://openweathermap.org/), the Central Pollution Control Board website, and the [Reliable Prognosis Weather Archive](https://rp5.ru).
 
+The web app was built in Python using the following libraries:
+
+    * streamlit
+    * pandas
+    * numpy
+    * scikit-learn
+    * xgboost
+    * requests
+    * pytz
+    * pickle
