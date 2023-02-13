@@ -5,7 +5,8 @@ For more information about our project, check out the [original repository]().
 
 Deployed with ease using Streamlit Community Cloud!
 Air Pollution Web App - https://breathe-easy.streamlit.app/
-The web app was built in Python using the following libraries:
+
+\nThe web app was built in Python using the following libraries:
 
     * streamlit
     * pandas
