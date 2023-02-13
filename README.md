@@ -1,5 +1,5 @@
 # Pollution Forecasting Web App
-This repo contains Python code for the web application built for our winter 2021 capstone project at Vellore Institure of Technology. 
+This repo contains Python code for the web application built for our winter 2021 capstone project at Vellore Institure of Technology. This was originally hosted on Heroku before it disable the free tier. 
 
 For more information, check out the [original repository]().
 
