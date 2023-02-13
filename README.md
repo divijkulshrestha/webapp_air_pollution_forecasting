@@ -3,9 +3,8 @@ This repo contains the code and setup files for the web application built for ou
 
 For more information about our project, check out the [original repository]().
 
-Deployed with ease using <insert name> below:
-Air Pollution Web App - https://pollution-forecast.herokuapp.com/
-
+Deployed with ease using Streamlit Community Cloud!
+Air Pollution Web App - https://breathe-easy.streamlit.app/
 The web app was built in Python using the following libraries:
 
     * streamlit
