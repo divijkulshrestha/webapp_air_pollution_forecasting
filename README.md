@@ -1,10 +1,7 @@
-# CSE 4099: Capstone Project
-## by Divij Kulshrestha [17BCE2116] and Mohith J [17BCE2135]
+# Pollution Forecasting Web App
+This repo contains Python code for the [web application]() built for our winter 2021 capstone project at Vellore Institure of Technology. 
 
-This repo contains Python code for the [web application]() we built for our capstone project. 
-
-# Aim
-Our project aims to use machine learning to forecast the level of pollution (specifically, PM 2.5 values) for vairous urban Indian cities using publicly available pollution and meteorological data from [OpenWeather](https://openweathermap.org/), the Central Pollution Control Board website, and the [Reliable Prognosis Weather Archive](https://rp5.ru).
+For more information, check out the [original repository]().
 
 Air Pollution Web App - https://pollution-forecast.herokuapp.com/
 
